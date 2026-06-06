@@ -1,0 +1,6 @@
+[build]
+  publish = "."
+
+# Geen build command nodig.
+# Formuliermeldingen stel je in via Netlify:
+# Project configuration > Notifications > Form submission notifications

@@ -1,0 +1,33 @@
+PAUL & TINA TROUWSITE - SCHONE COMPLETE VERSIE
+
+In deze map zitten:
+- index.html
+- bedankt.html
+- assets/paul-tina-kleur.jpg
+- netlify.toml
+- NETLIFY-STAPPEN.txt
+
+Belangrijk:
+- Er is geen chatfunctie meer.
+- Er is geen foto-upload meer.
+- Foto's en tekst voor de trouwkrant gaan per mail naar info@paul-tina.nl.
+- De formulieren hebben geen honeypot/spamveld meer.
+- De formulieren sturen na verzending door naar bedankt.html.
+
+Formulieren op de site:
+1. iets-doen-op-de-dag
+2. cadeau-idee
+
+Trouwkrant:
+Gasten mailen foto's en tekst naar:
+info@paul-tina.nl
+Onderwerp:
+Trouwkrant Paul en Tina
+
+Netlify:
+1. Upload alle bestanden naar GitHub.
+2. Commit changes.
+3. Netlify > Deploys > Deploy project without cache.
+4. Controleer of Forms de formulieren herkent.
+5. Zet meldingen aan naar info@paul-tina.nl:
+   Project configuration > Notifications > Form submission notifications
