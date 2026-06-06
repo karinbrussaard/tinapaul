@@ -15,8 +15,8 @@ Belangrijk:
 - De formulieren sturen na verzending door naar bedankt.html.
 
 Formulieren op de site:
-1. iets-doen-op-de-dag
-2. cadeau-idee
+1. aanmelding-dag
+2. cadeau-tip
 
 Trouwkrant:
 Gasten mailen foto's en tekst naar:
@@ -31,3 +31,13 @@ Netlify:
 4. Controleer of Forms de formulieren herkent.
 5. Zet meldingen aan naar info@paul-tina.nl:
    Project configuration > Notifications > Form submission notifications
+
+
+AANPASSING TEGEN SPAM
+- De formulieren hebben nieuwe namen gekregen:
+  1. aanmelding-dag
+  2. cadeau-tip
+- Verwijder in Netlify eventueel de oude formulieren:
+  iets-doen-op-de-dag
+  cadeau-idee
+- Test met echte tekst, geen willekeurige letters. Netlify zet korte testjes zoals 'asdf' vaak onder spam.

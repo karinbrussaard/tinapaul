@@ -550,6 +550,13 @@
       font-weight: 800;
     }
 
+
+    .email-nowrap {
+      white-space: nowrap;
+      overflow-wrap: normal;
+      word-break: keep-all;
+    }
+
     @media (max-width: 900px) {
       .grid-2, .countdown {
         grid-template-columns: 1fr 1fr;
@@ -648,8 +655,8 @@
             <div class="icon-badge teal">✉️</div>
             <h3>Aanmelden</h3>
             <p>Laat ons weten wat je ongeveer wilt doen. Dan kunnen wij daar rekening mee houden in de planning van de dag.</p>
-            <form name="iets-doen-op-de-dag" method="POST" data-netlify="true" action="/bedankt.html">
-              <input type="hidden" name="form-name" value="iets-doen-op-de-dag" />
+            <form name="aanmelding-dag" method="POST" data-netlify="true" action="/bedankt.html">
+              <input type="hidden" name="form-name" value="aanmelding-dag" />
               <label>
                 Naam
                 <input name="naam" required placeholder="Jouw naam" />
@@ -739,8 +746,8 @@
             <div class="icon-badge teal">💡</div>
             <h3>Geef je cadeau-idee door</h3>
             <p>Stuur je idee rechtstreeks naar ons. Dan kunnen wij alle suggesties verzamelen en kijken wat het beste bij Paul en Tina past.</p>
-            <form name="cadeau-idee" method="POST" data-netlify="true" action="/bedankt.html">
-              <input type="hidden" name="form-name" value="cadeau-idee" />
+            <form name="cadeau-tip" method="POST" data-netlify="true" action="/bedankt.html">
+              <input type="hidden" name="form-name" value="cadeau-tip" />
               <label>
                 Naam
                 <input name="naam" required placeholder="Jouw naam" />
@@ -788,7 +795,7 @@
           </div>
           <div>
             <strong>E-mail</strong>
-            <p><a href="mailto:info@paul-tina.nl">info@paul-tina.nl</a></p>
+            <p><a class="email-nowrap" href="mailto:info@paul-tina.nl">info@paul-tina.nl</a></p>
           </div>
         </div>
       </div>
