@@ -549,15 +549,7 @@
       color: var(--muted);
       font-weight: 800;
     }
-
-
-    .email-nowrap {
-      white-space: nowrap;
-      overflow-wrap: normal;
-      word-break: keep-all;
-    }
-
-    @media (max-width: 900px) {
+@media (max-width: 900px) {
       .grid-2, .countdown {
         grid-template-columns: 1fr 1fr;
       }
@@ -713,7 +705,7 @@
 
             <div class="mail-box">
               <strong>Mail je foto’s en tekst</strong>
-              <p>Stuur je foto’s samen met je stukje tekst naar <a href="mailto:info@paul-tina.nl?subject=Trouwkrant%20Paul%20en%20Tina">info@paul-tina.nl</a>.</p>
+              <p>Stuur je foto’s samen met je stukje tekst naar <a class="email-nowrap" href="mailto:info@paul-tina.nl?subject=Trouwkrant%20Paul%20en%20Tina">info@paul-tina.nl</a>.</p>
               <p>Zet in het onderwerp duidelijk: <strong>Trouwkrant Paul en Tina</strong>.</p>
             </div>
 
@@ -793,7 +785,7 @@
             <strong>Karin</strong>
             <p><a href="tel:+31630845097">06-30845097</a></p>
           </div>
-          <div>
+          <div class="email-contact">
             <strong>E-mail</strong>
             <p><a class="email-nowrap" href="mailto:info@paul-tina.nl">info@paul-tina.nl</a></p>
           </div>
